@@ -1,0 +1,50 @@
+@font-face {
+	font-family: Maven;
+	src: url("./fonts/MavenPro-Medium.ttf");
+}
+* {
+	font-family: Maven;
+}
+body {
+	
+}
+.me {
+	height: 15em;
+	width: 15em;
+	border-radius: 150px;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.container #skills {
+	flex-wrap: wrap;
+}
+.container #skills img {
+	height: 8em;
+	width: 8em;
+}
+.container #con_container {
+	flex-wrap: wrap;
+	
+	flex-direction: row;
+}
+.container #con_container img {
+	height: 8em;
+	width: 8em;
+}
+.container div h1 {
+	color: rgba(0, 0, 255, 0.7);
+}
+.container #hire button {
+	width: 8em;
+	height: 50px;
+	border-radius: 150px;
+	border-color: transparent;
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
