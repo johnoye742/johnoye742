@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$("#send").click(function() {
 Email.send( {
-  Host: "localhost",
+  Host: "smtpout.secureserver.net",
   Username: $("#username").val(), // the  account youd like to use to send the email
   Password: $("#pwd").val(), // account password
   To: "olugbengajohnoye@gmail.com", // the receiver email address
