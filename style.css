@@ -4,6 +4,7 @@
 }
 * {
 	font-family: Maven;
+	box-sizing: border-box;
 }
 body {
 	
@@ -48,3 +49,21 @@ body {
 	color: white;
 	cursor: pointer;
 }
+.container #contact button {
+	width: 8em;
+	height: 50px;
+	border-radius: 150px;
+	border-color: transparent;
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
+.namec {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.name {
+	
+}
+

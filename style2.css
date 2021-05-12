@@ -1,0 +1,46 @@
+@font-face {
+	font-family: Maven;
+	src: url("./fonts/MavenPro-Medium.ttf");
+}
+* {
+	font-family: Maven;
+	box-sizing: border-box;
+}
+.container {
+	border-radius: 50px;
+	box-shadow: 5px 5px 5px grey;
+	height: 50em;
+	width: 50em;
+	margin-top: 3em;
+	border: 5px solid black;
+}
+.container input {
+	height: 5em;
+	width: 20em;
+	padding: 20px;
+	border-radius: 150px;
+	margin-top: 2em;
+}
+.container input:focus {
+	background-color: rgba(0, 30, 255, 0.4);
+	color: white;
+	
+}
+.container button {
+	height: 5em;
+	width: 10em;
+	padding: 20px;
+	border-radius: 150px;
+	background-color: green;
+	border: 5px solid green;
+	color: white;
+	margin-top: 2em;
+	cursor: pointer;
+}
+.container textarea {
+	margin-top: 2em;
+	height: 10em;
+	width: 20em;
+	padding: 20px;
+	
+}
