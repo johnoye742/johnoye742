@@ -5,7 +5,7 @@
 
 I'm John Oye. I'm a 12 years old Kid Java Developer.
 
-- 🔭 I’m currently working on A Church Website along side The App.
+- 🔭 I’m currently working on my portfolio and other web and android project.
 - 🌱 I’m currently learning Java
 - 👯 I’m looking to collaborate on Android, web and console Java projects
 - 🤔 I’m looking for help with ...
