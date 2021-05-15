@@ -6,13 +6,24 @@
 	font-family: Maven;
 	box-sizing: border-box;
 }
+h1 {
+		color: rgba(0, 0, 255, 0.7);
+}
 .container {
 	border-radius: 50px;
-	box-shadow: 5px 5px 5px grey;
-	height: 50em;
-	width: 50em;
+	box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+	height: 80%;
+	width: 100%;
 	margin-top: 3em;
+	padding: 5px;
 	border: 5px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+}
+.container h1 {
+		color: rgba(255, 25, 25, 0.7);
 }
 .container input {
 	height: 5em;
@@ -26,7 +37,7 @@
 	color: white;
 	
 }
-.container button {
+.container input[type="submit"] {
 	height: 5em;
 	width: 10em;
 	padding: 20px;
@@ -42,5 +53,16 @@
 	height: 10em;
 	width: 20em;
 	padding: 20px;
+	
+}
+label {
+		font-size: 1.5em;
+		
+	}
+@media screen and (min-width: 1000px) {
+	.container {
+		width: 50em;
+		height: 50em;
+	}
 	
 }

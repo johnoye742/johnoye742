@@ -3,8 +3,39 @@
 <head>
 <title>John Oye - Hire Me</title>
 <link rel="shortcut icon" href="./favicon.ico">
+<link rel="stylesheet" href="./style2.css">
+<script src="./js/jquery-1.11.1.min.js"></script>
+<script src="./js/script.js"></script>
+<script src="./js/script2.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+<meta charset="UTF-8">
+
+
 </head>
-<body>
+<body style="display:none;">
+
+<center>
+<h1>HIRE ME</h1>
+<div class="container" style="display:none">
+<h1>EMAIL FORM</h1>
+<form method="POST" action="./email.php">
+<label for="email">Email:</label>
+<input placeholder="Enter your email address" name="email" id="email" type="email" required></input>
+<br/>
+<label for="name">Name:</label>
+<input placeholder="Enter your name" name="name" id="username" type="text" required></input>
+<br/>
+<label for="subject">Subject:</label>
+<input placeholder="Enter your email subject" name="subject" value="I WANT TO HIRE YOU" id="subject" type="text" required></input>
+<br/>
+<textarea id="body" placeholder="Enter your message" name="message"></textarea>
+<br/>
+<input id="send" type="submit" value="Send" name="send"></input>
+
+</form>
+</div>
+</center>
 
 </body>
+
 </html>

@@ -54,16 +54,23 @@ body {
 	height: 50px;
 	border-radius: 150px;
 	border-color: transparent;
-	background-color: green;
+	background-color: rgba(0, 0, 255, 0.7);
 	color: white;
 	cursor: pointer;
+}
+.container #contact button:hover {
+	background-color: rgba(255, 0, 0, 0.7);
 }
 .namec {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 .name {
 	
 }
+
+
+
 
