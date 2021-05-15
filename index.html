@@ -4,61 +4,74 @@
 <title>John Oye - Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
+<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+<script src="https://kit.fontawesome.com/fe8ea98d93.js" crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <link rel="shortcut icon" href="./favicon.ico">
 <script src="./js/jquery-1.11.1.min.js"></script>
-<script src="./js/script.js"></script>
+<script src="./js/script2.js"></script>
+<script src="./js/aos.js"></script>
+<link rel="stylesheet" href="./aos.css">
 </head>
-<body style="display:none;overflow:scroll;">
-<center>
-<img class="me" style="display:none;" src="./images/me.jpg"></img>
-</center>
-<div class="namec" style="display:none;">
+<body>
+ <center>
+<img class="me" data-aos="fade-up" data-aos-duration="1500" src="./images/me.jpg"></img>
+ </center>
+<div class="namec"  data-aos="fade-up" data-aos-duration="1500">
 <h1 align="center">JOHN OYE</h1>
 </div>
-<div class="container" style="display:none;">
-<div class="about">
+<div class="container" data-aos="fade-right">
+<div class="about" data-aos-duration="1500" data-aos="fade-right">
 <h1 align="center">ABOUT ME</h1>
-<p align="center">My name is John Oye. <br/><br/>I am a young teenage freelance front end devloper. I have been coding for 2 years.</p>
+<p align="center" style="color:white;">My name is John Oye. <br/><br/>I am a young teenage freelance front end devloper. I have been coding for 2 years.</p>
 </div>
 <br/>
-<div>
+<div class="vision" data-aos="fade-up" data-aos-duration="1500">
+
 <h1 align="center">MY VISION</h1>
 <p align="center">To become the best at what i do an to bring great ideas to the world.</p>
+
 </div>
 <br/>
-<div>
+<div data-aos="fade-up" data-aos-duration="1500" class="mission">
 <h1 align="center">MY MISSION</h1>
-<p>To help you develop you apps and your websites and to help teenagers.</p>
+<p align="center" style="color:white">To help you develop you apps and your websites and to help teenagers.</p>
 </div>
-<div id="skills">
+<div id="skills" data-aos="fade-up" data-aos-duration="1500">
 <h1 align="center">MY SKILLS</h1>
-
+ <center>
 <img src="./images/java.jpg"></img>
 <img src="./images/css.png"></img>
 <img src="./images/html.png"></img>
 <img src="./images/jquery.png"></img>
+ </center>
 </div>
 <br/>
-<div id="contact">
-<h1 align="center">CONTACT INFO</h1>
+
+<div id="hire" data-aos="fade-up" data-aos-duration="1500">
+ <center>
+<h1 align="center">HIRE ME</h1>
+<p style="color:white;">Hire me to do your websites(design) and android app development.</p>
+<br/>
+ <a href="./hire-me.html"><button>HIRE ME</button></a> </a>
+ </center>
+</div>
+<br/>
+<div id="contact" data-aos="fade-right" data-aos-duration="1500" >
+<h1 align="center" style="color: rgba(255, 0, 0, 0.9);box-shadow:0px 0px 0px #000;">CONTACT INFO</h1>
 <div id="con_container">
-<a href="https://fb.me/johnoye742" target="_blank"><img src="./images/facebook.jpg"></img></a>
-<a href="https://instagram.com/johnoye742" target="_blank"><img src="./images/instagram.jpg"></img></a>
-<a href="https://twitter.com/johnoye0742" target="_blank"><img src="./images/twitter.png"></img></a>
-<a href="https://github.com/johnoye742" target="_blank"><img src="./images/github.png"></img></a>
+<center>
+<a href="https://fb.me/johnoye742" target="_blank"><i class="fab fa-facebook" style="height:2em;width:2em;color:white;"></i></a>
+<a href="https://instagram.com/johnoye742" target="_blank"><i class="fab fa-instagram" style="height:2em;width:2em;color:white;"></i></a>
+<a href="https://twitter.com/johnoye0742" target="_blank"><i class="fab fa-twitter" style="height:2em;width:2em;color:white;"></i></a>
+<a href="https://github.com/johnoye742" target="_blank"><i class="fab fa-github" style="height:2em;width:2em;color:white;"></i></a>
+</center>
 </div>
 <p align="center">OR</p>
-<center><a href="./email-me.html"><button>EMAIL ME</button></a></center>
-</div>
-<br/>
-<div id="hire">
-<h1 align="center">HIRE ME</h1>
-<p>Hire me to do your websites(design) and android app development.</p>
-<br/>
-<center><a href="./hire-me.html"><button>HIRE ME</button></a></center></a>
+<center> <a href="./email-me.html"><button>EMAIL ME</button></a> </center>
 </div>
 </div>
+
 </body>
 </html>

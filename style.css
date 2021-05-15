@@ -23,22 +23,59 @@ body {
 }
 .container #skills {
 	flex-wrap: wrap;
+	flex-direction: row;
+	padding: 8em 3em 8em 3em;
+
+	width: 90%;
 }
 .container #skills img {
 	height: 8em;
 	width: 8em;
 }
-.container #con_container {
-	flex-wrap: wrap;
+
+
+.container .about {
+	padding: 8em 3em 8em 3em;
+	background-color: rgba(0, 32, 255, 0.5);
+	width: 90%;
 	
-	flex-direction: row;
 }
-.container #con_container img {
-	height: 8em;
-	width: 8em;
+.container .vision {
+	padding: 8em 3em 8em 3em;
+	width: 90%;
+}
+.container .mission {
+	padding: 8em 3em 8em 3em;
+	background-color: rgba(0, 32, 255, 0.5);
+	width: 90%;
+}
+
+.container #contact {
+	position: relative;
+	background-color: black;
+	color: white;
+	padding: 8em 3em 8em 3em;
+		width: 100%;
+		margin: 0;
+		left: 0;
+		bottom: 0;
+		
+}
+.container #con_container a i {
+	font-size: 2em;
+	color: white;
 }
 .container div h1 {
 	color: rgba(0, 0, 255, 0.7);
+}
+h1 {
+	color: rgba(255, 0, 25, 0.9);
+	text-shadow: 3px 5px 5px grey;
+}
+.container #hire {
+	padding: 8em 3em 8em 3em;
+	background-color: rgba(0, 32, 255, 0.5);
+	width: 90%;
 }
 .container #hire button {
 	width: 8em;
@@ -57,6 +94,7 @@ body {
 	background-color: rgba(0, 0, 255, 0.7);
 	color: white;
 	cursor: pointer;
+	transition: background-color 0.5s;
 }
 .container #contact button:hover {
 	background-color: rgba(255, 0, 0, 0.7);
