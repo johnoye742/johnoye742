@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 }
 body {
-	
+
 }
 .me {
 	height: 15em;
@@ -25,7 +25,7 @@ body {
 	flex-wrap: wrap;
 	flex-direction: row;
 	padding: 8em 3em 8em 3em;
-
+    background-color: white;
 	width: 90%;
 }
 .container #skills img {
@@ -36,17 +36,20 @@ body {
 
 .container .about {
 	padding: 8em 3em 8em 3em;
-	background-color: rgba(0, 32, 255, 0.5);
+	background-color: cyan;
+	color: black;
 	width: 90%;
 	
 }
 .container .vision {
 	padding: 8em 3em 8em 3em;
 	width: 90%;
+	background-color: white;
 }
 .container .mission {
 	padding: 8em 3em 8em 3em;
-	background-color: rgba(0, 32, 255, 0.5);
+	background-color: cyan;
+	color: black;
 	width: 90%;
 }
 
@@ -61,6 +64,9 @@ body {
 		bottom: 0;
 		
 }
+.container #contact h1 {
+	color: white;
+}
 .container #con_container a i {
 	font-size: 2em;
 	color: white;
@@ -70,21 +76,27 @@ body {
 }
 h1 {
 	color: rgba(255, 0, 25, 0.9);
-	text-shadow: 3px 5px 5px grey;
+	
 }
 .container #hire {
 	padding: 8em 3em 8em 3em;
-	background-color: rgba(0, 32, 255, 0.5);
+	background-color: cyan;
 	width: 90%;
+	color: black;
 }
 .container #hire button {
-	width: 8em;
-	height: 50px;
+	width: 10em;
+	height: 60px;
 	border-radius: 150px;
-	border-color: transparent;
+	border: 5px solid green;
 	background-color: green;
 	color: white;
 	cursor: pointer;
+	transition: background-color 0.5s;
+}
+.container #hire button:hover {
+	background-color: transparent;
+	color: black;
 }
 .container #contact button {
 	width: 8em;
