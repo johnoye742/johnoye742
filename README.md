@@ -3,7 +3,7 @@
 <!--
 **johnoye742/johnoye742** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.-->
 
-I'm John Oye. I'm a 13 years old Kid Java Developer.
+I'm John Oye. I'm a 12 years old Kid Java Developer.
 
 - 🔭 I’m currently working on my portfolio and other web and android project.
 - 🌱 I’m currently learning Java

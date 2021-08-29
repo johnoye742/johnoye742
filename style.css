@@ -9,118 +9,248 @@
 body {
 
 }
-.me {
-	height: 10em;
-	width: 10em;
-	border-radius: 150px;
+a {
+	text-decoration: none;
 }
-.container {
+a:visited {
+
+}
+.container, .container2 {
+	background-color: #5347c2;
+	padding: 3em 1em 3em 1em;
+	width: 100%;
+    margin: 0 auto;
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-direction: column;
-	
-}
-.container #skills {
 	flex-wrap: wrap;
+	color: white;
+	align-items: center;
+}
+.projects, .skills {
+	display: flex;
 	flex-direction: row;
-	padding: 8em 3em 8em 3em;
-    background-color: white;
-	width: 90%;
-}
-.container #skills img {
-	height: 8em;
-	width: 8em;
-}
-
-
-.container .about {
-	padding: 8em 3em 8em 3em;
-	background-color: cyan;
-	color: black;
-	width: 90%;
+	background-color: transparent;
 	
 }
-.container .vision {
-	padding: 8em 3em 8em 3em;
-	width: 90%;
-	background-color: white;
+.projects .project, .skills .skill {
+width: 30%;
+height: auto;
+margin-left: 1em;
 }
-.container .mission {
-	padding: 8em 3em 8em 3em;
-	background-color: cyan;
-	color: black;
-	width: 90%;
-}
-
-.container #contact {
-	position: relative;
-	background-color: black;
-	color: white;
-	padding: 8em 3em 8em 3em;
-		width: 100%;
-		margin: 0;
-		left: 0;
-		bottom: 0;
-		
-}
-.container #contact h1 {
-	color: white;
-}
-.container #con_container a i {
-	font-size: 2em;
-	color: white;
-}
-.container div h1 {
-	color: rgba(0, 0, 255, 0.7);
-}
-h1 {
-	color: rgba(255, 0, 25, 0.9);
-	
-}
-.container #hire {
-	padding: 8em 3em 8em 3em;
-	background-color: cyan;
-	width: 90%;
+.project a {
 	color: black;
 }
-.container #hire button {
-	width: 10em;
-	height: 60px;
-	border-radius: 150px;
-	border: 5px solid green;
-	background-color: green;
-	color: white;
-	cursor: pointer;
-	transition: background-color 0.5s;
+@media screen and (max-width: 780px) {
+	.projects, .skills {
+		display: flex;
+		flex-direction: column;
+	}
+	.projects .project, .skills .skill {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1em;
+	}
 }
-.container #hire button:hover {
+.projects .project h2, .skills .skill h2 {
+	font-size: larger;
+	font-weight: 500;
+}
+.projects .project img, .skills .skill img {
+	width: 100%;
+	height: auto;
+}
+.container2 {
 	background-color: transparent;
 	color: black;
 }
-.container #contact button {
-	width: 8em;
-	height: 50px;
+.container .logo {
+	width: 18em;
+	height: 18em;
+	border-radius: 150em;
+}
+.container h1, .container2 h1 {
+font-family: Maven;
+font-size: 2.5em;
+}
+.container ul {
+	list-style: none;
+	margin: 0;
+}
+.container ul li {
+	margin-bottom: 5%;
+	background-color: white;
 	border-radius: 150px;
-	border-color: transparent;
-	background-color: rgba(0, 0, 255, 0.7);
-	color: white;
+	padding: 1.7em;
+	color: black;
+	width: 100%;
+	margin-right: 5%;
+}
+.container ul li a {
+	color: black;
+}
+
+.button {
+	background-color: #72b1f8;
+	border-radius: 0.3em;
+	padding: 1em;
+	text-decoration: none;
+	border-color: #00000000;
 	cursor: pointer;
-	transition: background-color 0.5s;
+	width: 35%;
+	margin-top: 1em;
+	font-size: 1em;
+	color: white;
 }
-.container #contact button:hover {
-	background-color: rgba(255, 0, 0, 0.7);
+.button:hover {
+	background-color: #538ed1;
 }
-.namec {
+@media screen and (max-width: 680px) {
+	.button {
+		width: 70%;
+	}
+}
+.nav {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	margin: 0 0 3em 0;
+	left: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+    padding: 2em;
+	box-shadow: 5px 5px 7px black;
+	background-color: white;
+	z-index: 5;
+	overflow: hidden;
+}
+.nav li {
+margin-right: 1em;
+}
+.nav abbr {
+	font-size: 0.9em;
+	position: relative;
+	top: 0;
+	left: -50%;
+	margin-top: -1em;
+	margin-bottom: -1em;
+	background-color: cornflowerblue;
+	text-decoration: none;
+	border-radius: 150px;
+	color:white;
+	padding: 1em;
+	text-decoration: none;
+}
+
+.nav li a {
+	text-decoration: none;
+	border-radius: 150px;
+	color:black;
+	padding: 1em;
+	width: 20%;
+	transition: all 0.5s;
+}
+.nav li a:hover {
+background-color: cornflowerblue;
+color: white;
+}
+.nav img {
+	display: none;
+}
+#bars {
+	display: none;
+}
+@media screen and (max-width: 780px) {
+	.nav {
+		height: 100%;
+		position: fixed;
+		top: 0;
+		margin: 0 0 0 0;
+		left: 0;
+		list-style: none;
+		display: none;
+		padding: 1em;
+		box-shadow: 5px 5px 7px black;
+		background-color: white;
+		transition: all 0.6s;
+		width: 70%;
+		z-index: 5;
+		overflow: scroll;
+	}
+	.nav img {
+		display: block;
+		float: right;
+		cursor: pointer;
+	
+	}
+	.nav li {
+	margin-top: 4em;
+	
+	}
+	.nav abbr {
+		position: relative;
+		top: 2%;
+		left: 0;
+	}
+	.nav li a {
+		width: 100vw;
+	}
+	#bars {
+		background-color: cornflowerblue;
+		padding: 1em;
+		width: 4em;
+		height: 4em;
+		border-radius: 0.5em;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		position: fixed;
+		z-index: 5;
+		cursor: pointer;
+		margin-top: 5%;
+	}
+	#bars img {
+		color: white;
+		height: 2em;
+		width: 2em;
+	}
+}
+.nav li a.current {
+background-color: cornflowerblue;
+color: white;
+}
+footer {
+	background-color: black;
+	color: white;
+	padding: 2.5em;
+	margin-top: 1em;
+	position: relative;
+	width: 100vw;
+	left: -0.5em;
+	bottom: -0.5em;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+footer img {
+	width: 3em;
+	height: 3em;
+	margin-right: 0.5em;
+	color: white;
+	fill: white;
+}
+footer .social {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
 }
-.name {
-	
+.footer .social a {
+	color: white;
 }
-
-
-
-
+a {
+	text-decoration: none;
+	color: white;
+}

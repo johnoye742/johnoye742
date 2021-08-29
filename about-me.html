@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>John Oye - About Me</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+      window.onload = () => {
+      AOS.init();
+      }
+    </script>
+    
+    <link rel="stylesheet" href="./aos.css">
+</head>
+<body>
+     <!-- Messenger Chat Plugin Code -->
+     <div id="fb-root"></div>
+
+     <!-- Your Chat Plugin code -->
+     <div id="fb-customer-chat" class="fb-customerchat">
+     </div>
+ 
+     <script>
+       var chatbox = document.getElementById('fb-customer-chat');
+       chatbox.setAttribute("page_id", "106693514621311");
+       chatbox.setAttribute("attribution", "page_inbox");
+       window.fbAsyncInit = function() {
+         FB.init({
+           xfbml            : true,
+           version          : 'v10.0'
+         });
+       };
+ 
+       (function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+     </script>
+  
+    <header>
+        <div id="bars"><img src="images/bars.svg"></div> 
+<ul class="nav" id="nav">
+  <img src="images/times-circle.svg" width="10%" height="10%">
+  <abbr title="John Oye">Johnoye742</abbr>
+<li><a href="index.html" >Home</a></li>
+<li><a href="about-me.html" class="current">About Me</a></li>
+<li><a href="https://docs.google.com/document/d/1xaV9ie6AVm6eynZO2JUqETsy-aeXc4RxIZNvadbwo1Y/edit?usp=sharing">View Resume</a></li>
+<li><a href="contact-me.html">Contact Me</a></li>
+</ul>
+ 
+    </header>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <section class="container">
+      <h1>About Me</h1>
+      <p>My name is John Oye. <br/><br/>I am a young 13 years old front end developer. I have been coding for 2 years.<br/><br/>I make Android Applications and Web Designs.<br/></p>
+    </section>
+    <section class="container2">
+        <h1>How i started programming?</h1>
+        <p>As a child my inspiration came from games. So i wanted to create games, so through my findings i found out it can be done with programming. So i aspired into the world of programming as an 8 years old kid. I later left game development because of lack of understanding and aspired into the world of App development with Java. It wasn't easy at the start but i can say i clearly understand now.</p>
+    </section>
+    <section class="container">
+     <h1>My Vision</h1>
+     <p>My Vision is to become a very good developer and to become an inspiration to other kids like me.</p>
+    </section>
+    <section class="container2">
+        <h1>My Mission</h1>
+        <p>My Mission is to help young developers like me and those who aspire into programming. </p>
+    </section>
+    
+</body>
+<footer>
+    <div class="social">
+    <a href="https://fb.me/johnoye742"><img src="images/facebook.svg"></a>
+    <a href="https://instagram.com/johnoye742"><img src="images/instagram.svg"></a>
+    <a href="https://twitter.com/johnoye0742"><img src="images/twitter.svg"></a>
+    <a href="https://github.com/johnoye742"><img src="images/github.svg"></a>
+    </div>
+    <h2>&copy Johnoye742. Copyright 2021. All Rights Reserved.</h2>
+      </footer>
+      </html>
