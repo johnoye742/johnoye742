@@ -3,7 +3,7 @@ import '@flaticon/flaticon-uicons/css/brands/all.css'
 function NavBar() {
     return (
         <div className="w-full flex flex-row justify-between px-10 py-10">
-            <a href='#'>
+            <a href='/'>
                 <h1 className="text-3xl">John Oye</h1>
                 <p>~ dev-shinobi@johnoye742</p>
             </a>

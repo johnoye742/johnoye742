@@ -26,7 +26,7 @@ function App() {
               <a href='mailto:olugbengajohnoye@gmail.com' target='_blank' rel="noreferrer" className=' ml-4 flex flex-row items-center justify-center h-12 w-12 rounded-full border border-[#A5D7E8]'><i class="fi fi-rr-envelope text-xl p-0 self-center mt-1.5"></i></a>
             </div>
             <div>
-              <img src={cartoon}></img>
+              <img src={cartoon} alt='cartoon for dev-shinobi'></img>
             </div>
           </div>
           
