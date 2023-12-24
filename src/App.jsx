@@ -18,7 +18,7 @@ function App() {
       <NavBar></NavBar>
 
       
-      <main className='px-12'>
+      <main className='lg:px-12 px-6'>
           <div className='grid lg:grid-cols-2 grid-cols-1 gap-3' data-aos='zoom-in' data-aos-duration='2000'>
             <div className='flex flex-col justify-center'>
               <h1 className='text-3xl uppercase font-extrabold bg-text-bg intro-text bg-cover bg-no-repeat'>A revolutionary software developer focused on solving real world problems.</h1>
