@@ -55,10 +55,16 @@ function App() {
           <section className='mt-16 pt-5 pb-24 border-t border-t-blue-500'>
             <h1 className='text-3xl'>Recent Projects</h1>
             <div className='grid lg:grid-cols-2 grid-cols-1 py-3 gap-3'>
-              <Card title={'SafeSpace'} desc={'SafeSpace is a chat application created to help people chat anonymously without much censorship.'} link={'https://safe-space-lucm.onrender.com'} tech={'Laravel, TailwindCSS, VanilaJS'}></Card>
-              <Card title='EduRes' desc='This is an application I am working on where students can sign in and get resources to learn and study' link={'https://edu-res.onrender.com'} tech={'Laravel, React'}></Card>
-              <Card title='CRMStar' desc='This is an open source CRM software for Health Care and Real Estate which intends to solve real world problems especially in the Nigerian health care sector.' link={'https://github.com/johnoye742/crm-system'} tech={'Laravel, Livewire'}></Card>
+
               <Card title={'Good Shepherd Newspaper'} desc={'I built and manage the website of Good Shepherd Newspaper which is the official publication of the Catholic Archdiocese of Abuja'} tech={'PHP, Wordpress'} link={'https://goodshepherd.news'}></Card>
+
+              <Card title='CRMStar' desc='This is an open source CRM software for Health Care and Real Estate which intends to solve real world problems especially in the Nigerian health care sector.' link={'https://github.com/johnoye742/crm-system'} tech={'Laravel, Livewire'}></Card>
+
+              <Card title='EduRes' desc='This is an application I am working on where students can sign in and get resources to learn and study' link={'https://edu-res.onrender.com'} tech={'Laravel, React'}></Card>
+
+              <Card title={'SafeSpace'} desc={'SafeSpace is a chat application created to help people chat anonymously without much censorship.'} link={'https://safe-space-lucm.onrender.com'} tech={'Laravel, TailwindCSS, VanilaJS'}></Card>
+
+
             </div>
             
           </section>
