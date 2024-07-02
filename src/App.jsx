@@ -33,8 +33,11 @@ function App() {
           <section className='mt-16 pt-5 pb-24 border-t border-t-blue-500'>
             <h1 className='text-3xl'>My Services</h1>
             <div className='grid lg:grid-cols-2 grid-cols-1 py-3 gap-3'>
-              <Card title={'Single Page Applications (SPAs)'} desc={'I can help you develop your SPAs using the power of React and Laravel for backend if needed.'}></Card>
+              <Card title={'Single Page Applications (SPAs)'} desc={'I can help you develop your SPAs using the power of React(or Livewire) and Laravel for backend if needed.'}></Card>
               <Card title='Software as a Service (SaaS)' desc='I love building softwares and solutions to real world problems and will pay close attention to your needs and requests.'></Card>
+              <Card title='Web Services' desc='I can help build very performant web services with a solid infrastructure that prioritize speed over anything'></Card>
+
+              <Card title='Web Development & Maintainance' desc='I build and maintain PHP based sites to a very high standard that you will love and appreciate'></Card>
             </div>
             
           </section>
@@ -43,7 +46,7 @@ function App() {
             <h1 className='text-3xl'>My Stack</h1>
             <div className='grid lg:grid-cols-2 grid-cols-1 py-3 gap-3'>
               <Card title={'LAMP Stack'} desc='Laravel, Apache, MySQL and PHP'></Card>
-              <Card title='React.js'></Card>
+              <Card title={'FullStack Web Development'} desc='Laravel, Livewire, MySQL, Nginx'></Card>
               <Card title='Java'></Card>
             </div>
             
@@ -54,7 +57,8 @@ function App() {
             <div className='grid lg:grid-cols-2 grid-cols-1 py-3 gap-3'>
               <Card title={'SafeSpace'} desc={'SafeSpace is a chat application created to help people chat anonymously without much censorship.'} link={'https://safe-space-lucm.onrender.com'} tech={'Laravel, TailwindCSS, VanilaJS'}></Card>
               <Card title='EduRes' desc='This is an application I am working on where students can sign in and get resources to learn and study' link={'https://edu-res.onrender.com'} tech={'Laravel, React'}></Card>
-              <Card title={'SFACC'} desc={'This is a website for St. Francis of Asisi Catholic Church, Galadimawa, Abuja, Nigeria'} tech={'Laravel, React, Tailwind'} link={'https://sfacc-galadimawa.onrender.com'}></Card>
+              <Card title='CRMStar' desc='This is an open source CRM software for Health Care and Real Estate which intends to solve real world problems especially in the Nigerian health care sector.' link={'https://github.com/johnoye742/crm-system'} tech={'Laravel, Livewire'}></Card>
+              <Card title={'Good Shepherd Newspaper'} desc={'I built and manage the website of Good Shepherd Newspaper which is the official publication of the Catholic Archdiocese of Abuja'} tech={'PHP, Wordpress'} link={'https://goodshepherd.news'}></Card>
             </div>
             
           </section>
