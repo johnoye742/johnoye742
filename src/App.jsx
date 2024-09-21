@@ -57,6 +57,8 @@ function App() {
             <div className='grid lg:grid-cols-2 grid-cols-1 py-3 gap-3'>
 
               <Card title={'Good Shepherd Newspaper'} desc={'I built and manage the website of Good Shepherd Newspaper which is the official publication of the Catholic Archdiocese of Abuja'} tech={'PHP, Wordpress'} link={'https://goodshepherd.news'}></Card>
+              <Card title={'Project Hermes'} desc={'Project Hermes is an open source key-value datastore written in Java. It has surpassed alternatives like Redis on certain benchmarks and is still in development.'} link={'https://project-hermes-ruddy.vercel.app/'} tech={'Java'}></Card>
+              <Card title={'ArchGabriel'} desc={'Named after the messenger, this project is an open source self hostable alternative to Pusher. With ArchGabriel you can throw away the need to have to write server-side code ever again for your messaging apps, all you need to do is turn on the server and connect to it. Simple and short.'} link={'https://github.com/johnoye742/arch-gabriel-server'} tech={'Java'}></Card>
 
               <Card title='CRMStar' desc='This is an open source CRM software for Health Care and Real Estate which intends to solve real world problems especially in the Nigerian health care sector.' link={'https://github.com/johnoye742/crm-system'} tech={'Laravel, Livewire'}></Card>
 
