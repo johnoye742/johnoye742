@@ -22,7 +22,7 @@ function App() {
           <div className='grid lg:grid-cols-2 grid-cols-1 gap-3' data-aos='zoom-in' data-aos-duration='2000'>
             <div className='flex flex-col justify-center'>
               <h1 className='text-3xl uppercase font-extrabold bg-text-bg intro-text bg-cover bg-no-repeat'>A revolutionary software developer focused on solving real world problems.</h1>
-              <p>I am John Oye a 16-year-old passionate independent software developer, who's being learning and developing applications for a couple of years now. Sounds unbelievable right 😅, but then there are a lot of young developers out there, but I'm built different 💪, I intend to create applications that'll solve real world problems, so if you like that consider contacting me with your ideas. I'm also open to gigs and roles 😊</p>
+              <p>I am John Oye a software developer, who's being learning and developing applications for over 5 years. I  create applications that'll solve real world problems, so if you like that consider contacting me with your ideas. I'm also open to gigs and roles 😊</p>
               <a href='mailto:olugbengajohnoye@gmail.com' target='_blank' rel="noreferrer" className=' ml-4 flex flex-row items-center justify-center h-12 w-12 rounded-full border border-[#A5D7E8]'><i class="fi fi-rr-envelope text-xl p-0 self-center mt-1.5"></i></a>
             </div>
             <div>
@@ -46,7 +46,8 @@ function App() {
             <h1 className='text-3xl'>My Stack</h1>
             <div className='grid lg:grid-cols-2 grid-cols-1 py-3 gap-3'>
               <Card title={'LAMP Stack'} desc='Laravel, Apache, MySQL and PHP'></Card>
-              <Card title={'FullStack Web Development'} desc='Laravel, Livewire, MySQL, Nginx'></Card>
+              <Card title={'FullStack Web Development'} desc='Laravel, Next.js, Livewire, MySQL, Nginx'></Card>
+              <Card title={'Web3'} desc='Rust, CosmWasm, Xion' />
               <Card title='Java'></Card>
             </div>
             
