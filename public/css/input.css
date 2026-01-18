@@ -1,3 +1,11 @@
-@tailwind base;
-@tailwind utilities;
-@tailwind components;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0b2447;
+}
+
+@layer components {
+  .text-bg {
+    background-image: url('/me.jpeg');
+  }
+}
