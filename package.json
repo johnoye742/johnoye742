@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@flaticon/flaticon-uicons": "^3.3.1",
+    "@tailwindcss/vite": "^4.1.18",
     "aos": "^2.3.4",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
@@ -11,10 +12,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "build-tw": "tailwindcss -i ./public/css/input.css -o ./src/App.css --watch"
+    "preview": "vite preview"
   },
-
   "browserslist": {
     "production": [
       ">0.2%",

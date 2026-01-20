@@ -1,6 +1,16 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Poppins:wght@100;200;300;400&display=swap');
 
+@theme {
+  --color-primary: #0b2447;
+}
+
+@layer components {
+  .text-bg {
+    background-image: url('/me.jpeg');
+  }
+}
+
 body {
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
