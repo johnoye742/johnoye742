@@ -1,7 +1,8 @@
 
-function Card({ title, desc, link, tech }) {
+function Card({ title, desc, link, tech, img }) {
     return (
-        <div data-aos='flip-up' data-aos-duration='1000' className='bg-[#19376D] px-8 py-5 hover:shadow-xl transition-all duration-500 ease-in-out'>
+        <div data-aos='flip-up' data-aos-duration='1000' className='bg-[#19376D] px-5 py-5 hover:shadow-xl transition-all duration-500 ease-in-out'>
+            { img && <img src={img} className="w-full h-[30em] object-cover pb-2" /> }
             <h1 className='text-xl pb-1 text-[#A5D7E8]'>{ title }</h1>
             <p className="pb-2">{ desc }</p>
             { tech && <p className="pb-2 text-gray-500">Technologies Used: { tech }</p> }
